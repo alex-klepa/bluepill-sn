@@ -12,7 +12,7 @@ module Bluepill
       self.pids_dir = File.join(base_dir, 'pids')
 
       setup_dir_structure
-      cleanup_bluepill_directory
+      #cleanup_bluepill_directory
     end
 
     def running_applications
